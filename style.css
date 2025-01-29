@@ -1,8 +1,4 @@
 @charset "utf-8";
-* {
-    margin: 0px;
-    padding: 0px;
-}
 
 @font-face {
     font-family: 'bebasneue';
@@ -22,53 +18,32 @@
     --cor05: #73D6F2;
     --cor06: #b2eeff;
  }
-head {
-    margin: 0px;
-    padding: 0px;
-}
 #principal{
     font-family: bebasneue;
     text-align: center;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    font-size: 3em;
-    font-weight: normal;
-    margin-bottom: 20px;
-    margin: 0px;
-    padding: 0px;
+    text-shadow: 1.5px 1px 1px rgba(0, 0, 0, 0.733);
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 17px;
 }
-p{
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    font-size: 1em;
-    line-height: 2em;
-}    
-}
+
 #apresentacao{
-    font-size: 1.2em;
-    color: white;
-    max-width: 600px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
-    padding-bottom: 50px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    text-align: center ;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.548);
 }
 
 #titulo{
     font-family: idroid, sans-serif;
     color: var(--cor01);
-    font-weight: normal;
-    font-size: 1.8em;
 }
 
 .subtitulo{
     font-family: idroid, sans-serif;
     color: var(--cor01);
     background-image: linear-gradient(to right, var(--cor04), var(--cor06));
-    text-indent: 8px;
-    font-size: 1.3em;
-    font-weight: normal;
+    padding: 5px;
+    text-shadow: rgba(0, 0, 0, 0.562) 1px 1px 1px;
+    font-weight: lighter;
 }
 
 .links{
@@ -79,16 +54,19 @@ p{
 
 #extra{
     background-color: var(--cor05);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+    text-align: justify;
 }
 
 #extra > h4{
     color: white;
     background-color: var(--cor01);
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 9px;
+    margin: -5px;
 }
 
 ul{
@@ -97,40 +75,33 @@ ul{
     list-style-position: inside;
 }
 
+p{
+    text-indent: 20px;
+}
+
 header{
     background-image: linear-gradient(to top, var(--cor02), var(--cor05));
     color: white;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.342);
-    min-height: 150px;
-    text-align: center;
-    padding-top: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     font-size: 17px;
-    margin: 0px;
-    padding: 0px;
-    padding-top: 40px;
 }
 
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor05);
-    margin: 0px;
-    padding: 0px;
+    margin: auto;
 }
-
-nav{
-    padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
-}
-}
-    
 
 nav > a {
     color: white;
-    padding: 10px;
-    border-radius: 5px;
     text-decoration: none;
-    font-weight: bold;
-    transition-duration: .5s;
+    padding: 3px;
+   text-shadow: rgba(0, 0, 0, 0.425) 1px 1px 1px;
+   transition-duration: .5s;
 }
 
 
@@ -143,21 +114,21 @@ nav > a:hover{
 main{
     background-color: white;
     margin: auto;
-    margin-bottom: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    min-width: 300px;
-    max-width: 1000px;
+    border-radius: 0px 0px 5px 5px ;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    min-width: 400px;
+    max-width: 800px;
 }
 
 .video{
-    background-color: var(--cor01);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    padding-bottom: 58%;
     position: relative;
+    background-color: var(--cor01);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
 }
 
 .video > iframe{
@@ -173,12 +144,12 @@ footer{
     color: white;
     text-align: center;
     font-weight: bold;
-    margin: 0px;
-    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: -23px;
 }
 
 footer > p {
-    padding: 0px;
+    padding: 5px;
     font-size: 11.5px;
     font-weight: lighter;
 }
