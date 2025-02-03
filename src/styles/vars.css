@@ -1,0 +1,14 @@
+:root{
+   /* CORES */
+    --cor001: #001A6E;
+    --cor002: #415FC3;
+    --cor003: #7792ED;
+    --cor004: #ADDEFF;
+    --cor005: #000;
+    --cor006: #fff;
+
+    /* FONTES */
+    --fonte-padrao: 'Arial', sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'idroid', sans-serif;
+}
