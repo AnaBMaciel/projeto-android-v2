@@ -9,6 +9,10 @@
 
     /* FONTES */
     --fonte-padrao: 'Arial', sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'idroid', sans-serif;
+    --fonte-destaque: 'bebas Neue', cursive;
+    --fonte-android: 'idroid', serif;
+}
+@font-face{
+    font-family: 'idroid';
+    src :url(.fontes/idroid.otf) format('opentype');
 }
