@@ -86,15 +86,27 @@ main  h2{
 }
 
 main a{
-    background-image: linear-gradient(to right, var(--cor003), var(--cor007));
     text-decoration: none;
     color: var(--cor001);
     font-weight: 700;
     padding: 0 5px 0 5px;
 }
 
+main a:hover{
+    color: var(--cor002);
+    text-decoration: underline;
+}
+
+main .link{
+    background-image: linear-gradient(to right, var(--cor003), var(--cor007));
+}
+
 main img{
     width: 100%;
+}
+
+main p{
+    margin: 10px;
 }
 
 #pequena{
@@ -106,7 +118,7 @@ main img{
 #video{
     background-color: var(--cor001);
     position: relative;
-    margin: 0 -20px 0 -30px;
+    margin: 0 -20px 0 -20px;
     padding: 20px;
     padding-bottom: 58%;
 }
@@ -117,4 +129,46 @@ div#video > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+aside{
+    background-color: var(--cor004);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.151);
+}
+
+aside h3{
+    background-color: var(--cor001);
+    color: white;
+    padding: 10px;
+    margin: -15px -15px 0 -15px;
+    border-radius: 10px 10px 0 0;
+}
+
+aside ul {
+    list-style-position: inside;
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+footer{
+    background-color: var(--cor001);
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8em;
+    font-weight: 700;
+    padding: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor003);
 }
