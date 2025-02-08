@@ -1,3 +1,8 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
 :root{
    /* CORES */
     --cor001: #001A6E;
@@ -6,6 +11,7 @@
     --cor004: #ADDEFF;
     --cor005: #000;
     --cor006: #fff;
+    --cor007: #f6fcff;
 
     /* FONTES */
     --fonte-padrao: 'Arial', sans-serif;
